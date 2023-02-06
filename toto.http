@@ -1,0 +1,17 @@
+POST http://127.0.0.1:5000/user/add
+Content-Type: application/json
+
+{
+    "nom" : "ABA",
+    "prenom" : "Pulf",
+    "tel" : "933",
+    "password" : "kp",
+    "login" : "thhhh",
+    "email" : "thgtgt@gmail.com"
+}
+
+###
+
+GET http://127.0.0.1:5000/user/get/1
+
+
